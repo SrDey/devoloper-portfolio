@@ -1,4 +1,4 @@
-/* common sheard styles */
+/* common sheared styles */
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -16,7 +16,7 @@ body {
   color: aliceblue;
   font-weight: 700;
   border: 0;
-padding: 15px 50px;
+  padding: 15px 50px;
 }
 
 /* nav related styles */
@@ -24,6 +24,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0px 200px;
 }
 
 .nav-title {
@@ -46,5 +47,21 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #474747;
+  color: #474 747;
+}
+
+/* header css */
+.header {
+  background: #FFF8F3;
+}
+
+.banner {
+  padding: 30px 30px 30px 150px;
+  display: flex;
+align-items: center;
+}
+
+.banner .profile-pic {
+  width: 500px;
+
 }
