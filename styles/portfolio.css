@@ -1,0 +1,47 @@
+/* common sheard styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* primary css */
+
+.primary-color {
+  color: rgba(253, 110, 10, 1);
+}
+
+.btn-primary {
+  border-radius: 5px;
+  background: #FD6E0A;
+  font-size: 20px;
+  color: aliceblue;
+  font-weight: 700;
+  border: 0;
+
+}
+
+/* nav related styles */
+nav {
+  display: flex;
+}
+
+.nav-title {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
+
+}
+
+
+nav>ul {
+  display: flex;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #474747;
+}
