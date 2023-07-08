@@ -16,12 +16,14 @@ body {
   color: aliceblue;
   font-weight: 700;
   border: 0;
-
+padding: 15px 50px;
 }
 
 /* nav related styles */
 nav {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .nav-title {
@@ -34,6 +36,7 @@ nav {
 
 nav>ul {
   display: flex;
+  align-items: center;
 }
 
 nav li {
